@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Larry Morales Jordan"]
   spec.email         = ["larrymoralesjordan@gmail.com"]
   spec.summary       = %q{Wraper gem for your app to be able to send whatsapp meesages.}
-  spec.description   = %q{Wraper gem to help your app send whatsapp messages from your app using whatools API.}
+  spec.description   = %q{Wraper gem fro whatools API. It helps you to send whatsapp messages from your ruby app.}
   spec.homepage      = "https://github.com/larrymjordan/whathor"
   spec.license       = "MIT"
 
@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.6"
-  spec.add_development_dependency "rake"
+  spec.add_development_dependency "rake", "~> 0"
   spec.add_development_dependency "rspec", '~> 3'
 
   spec.add_runtime_dependency "rest-client", "~> 1.8"
