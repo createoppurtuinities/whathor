@@ -22,7 +22,7 @@ Or install it yourself as:
 
 There are only three easy steps for this to work:
 
-```ruby```
+```ruby
 
   # 1. Before any message is sent for the first time, you have to subscribe against Whatools Rest API
   # by passing the token.
@@ -37,11 +37,3 @@ There are only three easy steps for this to work:
   Whathor.unsubscribe
 ```
 You can read more about Whatools API specification in [https://api.wha.tools/v0](https://api.wha.tools/v0/)
-
-## Contributing
-
-1. Fork it ( https://github.com/[my-github-username]/whathor/fork )
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request

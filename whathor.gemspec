@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["larrymoralesjordan@gmail.com"]
   spec.summary       = %q{Wraper gem for your app to be able to send whatsapp meesages.}
   spec.description   = %q{Wraper gem to help your app send whatsapp messages from your app using whatools API.}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/larrymjordan/whathor"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
